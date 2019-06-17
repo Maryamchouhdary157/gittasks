@@ -16,6 +16,7 @@ namespace maryamphoto
         public static string l1;
         public static string l2;
         public static string l3;
+        public static string l4;
         public Form1()
         {
             InitializeComponent();
@@ -57,6 +58,7 @@ namespace maryamphoto
             l1 = textBox1.Text;
             l2 = textBox2.Text;
             l3 = textBox3.Text;
+            l4 = txtAddr.Text;
             Form2 frm2 = new Form2(pictureBox1.Image);
 
             frm2.Show();

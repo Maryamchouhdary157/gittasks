@@ -31,6 +31,7 @@ namespace maryamphoto
             label1.Text = Form1.l1;
             label2.Text = Form1.l2;
             label3.Text = Form1.l3;
+            label8.Text = Form1.l4;
         }
     }
 }
